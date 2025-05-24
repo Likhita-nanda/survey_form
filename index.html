@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Comico Survey Form</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+
+  <body >
+    <h1 id="title">Comico Survey Form</h1>
+    <p id="description"><em>A world of amazing comics</em></p>
+
+    <form method="post" id="survey-form">
+      <fieldset>
+        <label id="name-label">
+          First Name: <input required id="name" type="text" placeholder="John"/>
+        </label>
+
+        <label id="name-label">Last Name:
+          <input id="name" required placeholder="Dawson" type="text"/>
+        </label>
+
+        <label id="name-label">User Name:
+          <input id="name" required pattern="[a-zA-Z0-9]" placeholder="JohnDawson123" type="text"/>
+        </label>
+
+        <label id="email-label">Email: <input id="email" required placeholder="johndawson@gmail.com" type="email">
+        </label>
+
+        <label id="number-label">Age: <input required id="number" placeholder="15" min=13 max=100 type="number">
+        </label>
+      </fieldset>
+
+      
+      <fieldset>
+        <legend>Do You Enjoy Reading Comics? (Required field)</legend>
+        <label>
+          
+          <input checked required class="radio" name="enjoy-reading" value="yes" type="radio"/> Yes</label>
+         <label> <input class="radio" required name="enjoy-reading" value="no" type="radio"/> No
+        </label>
+
+      </fieldset>
+
+      
+
+      <fieldset>
+        <legend>Do You Like Coloured or Black-n-White Comics? (Required field)</legend>
+        <label>
+          <input class="checkbox"  checked value="color" type="checkbox"> Coloured
+        </label>
+        <label>
+          <input class="checkbox"   value="bl-wh" type="checkbox"/> Black-n-White
+        </label>
+
+        <label ><legend class="genre">Your Favourite Genre:</legend>
+          <select required id="dropdown">
+            <option>Fantasy</option>
+            <option>Slice of Life</option>
+            <option>Time Travel</option>
+            <option>Reincarnation</option>
+            <option>Action</option>
+          </select>
+        </label>
+
+        
+      </fieldset>
+      
+      <fieldset>
+        <label>Feedback on Comico:
+          <textarea required rows=5 cols=30 placeholder="In my opinion..."></textarea>
+        </label>
+      </fieldset>
+      
+
+      <input id="submit" type="submit">
+
+      
+
+    </form>
+  </body>
+</html>
+
+
