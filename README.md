@@ -3,7 +3,7 @@ A user feedback form for Comico, designed to gather preferences on comic styles,
 A clean and responsive feedback form designed for **Comico**, a website targeting comic lovers of various genres.
 
 ## 🔗 Live Demo
-[Click here to view the form](https://yourusername.github.io/comico-survey-form/)  
+[Click here to view the form](https://likhita-nanda.github.io/survey_form/) 
 [GitHub Repository](https://github.com/Likhita-nanda/comico-survey-form)
 
 ## 📝 Features
